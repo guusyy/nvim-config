@@ -5,8 +5,8 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
-  'vue-language-server',
-  'tailwindcss-language-server',
+  'volar',
+  'tailwindcss',
 })
 
 -- Fix Undefined global 'vim'
